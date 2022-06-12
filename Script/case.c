@@ -57,7 +57,7 @@ case 4:
         scanf("%f", &num1);
         printf("\n Insira outro numero: ");
         scanf("%f", &num2);
-        div = num1 / num2;
+        mult = num1 / num2;
         printf("A divisao entre esses numeros e: %.2f", mult);
         break;
         
@@ -65,5 +65,5 @@ case 4:
         break;
     }
 
-    return 0;
+    return 0; 
 }
